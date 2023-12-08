@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sounds for Sleep</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="Images/moon-zzz-svgrepo-com.svg"
+        alt="Moon with sleeping Z's"
+        class="moon-icon"
+        title="ZZZ"
+      />
+
+      <h1>Sounds for Sleep</h1>
+    </header>
+
+    <main>
+      <section class="players-container">
+        <div class="rain-player">
+          <img
+            src="Images/rain-and-black-cloud-16564.png"
+            alt="Rain Cloud"
+            class="icons rain-icon"
+            title="Rain Cloud"
+          />
+
+          <audio src="Audio/rain.mp3" class="rain-audio"></audio>
+
+          <input
+            type="range"
+            min="0"
+            max="1"
+            step=".1"
+            value="0.2"
+            class="rain-volume"
+          />
+
+          <div class="controls">
+            <button type="button">
+              <img
+                src="Images/play-button-4205.png"
+                alt="Play Button"
+                class="rain-play"
+              />
+            </button>
+
+            <button type="button">
+              <img
+                src="Images/pause-black-outline-circle-button-20673.png"
+                alt="Pause Button"
+                class="rain-pause"
+              />
+            </button>
+          </div>
+        </div>
+
+        <div class="white-noise-player">
+          <img
+            src="Images/sound-waves-14671.png"
+            alt="Sound Waves"
+            class="icons white-noise-icon"
+            title="Sound Waves"
+          />
+
+          <audio src="Audio/white noise.mp3" class="white-noise-audio"></audio>
+
+          <input
+            type="range"
+            min="0"
+            max="1"
+            step=".1"
+            value=".2"
+            class="white-noise-volume"
+          />
+
+          <div class="controls">
+            <button type="button">
+              <img
+                src="Images/play-button-4205.png"
+                alt="Play Button"
+                class="white-noise-play"
+              />
+            </button>
+            <button type="button">
+              <img
+                src="Images/pause-black-outline-circle-button-20673.png"
+                alt="Pause Button"
+                class="white-noise-pause"
+              />
+            </button>
+          </div>
+        </div>
+
+        <div class="fire-player">
+          <img
+            src="Images/fire-danger-5624.png"
+            alt="Fire"
+            class="icons fire-icon"
+            title="Fire"
+          />
+          <audio src="Audio/fire.mp3" class="fire-audio"></audio>
+          <input
+            type="range"
+            min="0"
+            max="1"
+            step=".01"
+            value="0.2"
+            class="fire-volume"
+          />
+          <div class="controls">
+            <button type="button">
+              <img
+                src="Images/play-button-4205.png"
+                alt="Play Button"
+                class="fire-play"
+              />
+            </button>
+            <button type="button">
+              <img
+                src="Images/pause-black-outline-circle-button-20673.png"
+                alt="Pause Button"
+                class="fire-pause"
+              />
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

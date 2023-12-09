@@ -1,6 +1,6 @@
 # Sounds for Sleep App
 
-This is a minimal site for playing sounds to fall asleep to. It has three audio players (Rain, White-Noise, & Fire). The sounds can be mixed and matched and volumes independently adjusted.
+This is a minimal site for playing sounds to fall asleep to. It has three audio players (Rain, White-Noise, & Fire). The sounds can be mixed and matched.
 
 ### Screenshots
 
@@ -16,7 +16,7 @@ This is a minimal site for playing sounds to fall asleep to. It has three audio 
 
 ### What I learned
 
-I use similar apps/sites often and wanted to create this one for some practice with web API's. Event delegation was very useful for all the event listeners to minimize repetitive code.
+I use similar apps/sites often and wanted to create this one for some practice with audio. Event delegation was very useful for all the event listeners to minimize repetitive code.
 
 ### Useful resources
 

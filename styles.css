@@ -49,10 +49,9 @@ h1 {
 }
 
 .player {
-  border-bottom-left-radius: 1.2rem;
-  border-bottom-right-radius: 1.2rem;
-  box-shadow: 0px 10px 5px 0 hsl(0, 0%, 50%);
-  padding: 1rem;
+  border: 2px solid gray;
+  border-radius: 1rem;
+  padding: 1.2rem;
 }
 
 audio {
@@ -61,7 +60,7 @@ audio {
 
 .icons {
   max-width: 3rem;
-  margin: 2rem auto;
+  margin: 0.8rem auto 2rem auto;
 }
 
 .animation {
@@ -83,7 +82,7 @@ audio {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  padding: 2rem;
+  padding: 2rem 2rem 0.5rem 2rem;
 }
 
 .controls img {
@@ -123,7 +122,7 @@ input[type="range"] {
   appearance: none;
   background: transparent;
   cursor: pointer;
-  width: 9rem;
+  width: 8rem;
   align-self: center;
 }
 
@@ -216,7 +215,11 @@ input[type="range"]:hover::-moz-range-thumb {
     padding-top: 0;
   }
 
+  .icons {
+    margin: 1rem auto;
+  }
+
   .player {
-    padding: 0;
+    padding: 0.4rem 0.4rem 1rem 0.4rem;
   }
 }

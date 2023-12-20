@@ -19,7 +19,6 @@ body {
 }
 
 /* HEADING STYLES */
-
 header {
   display: flex;
   flex-direction: column;
@@ -39,7 +38,6 @@ h1 {
 }
 
 /* PLAYER STYLES */
-
 .players-container {
   padding: 1.3rem 2rem;
   display: flex;
@@ -116,7 +114,6 @@ button:focus {
 }
 
 /* SLIDER CUSTOM STYLES */
-
 input[type="range"] {
   -webkit-appearance: none;
   appearance: none;
@@ -143,7 +140,6 @@ input[type="range"]::-moz-range-track {
 }
 
 /***** Thumb Styles *****/
-
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none; /* Override default look */
   appearance: none;
@@ -191,7 +187,6 @@ input[type="range"]:hover::-moz-range-thumb {
 }
 
 /* KEYFRAMES */
-
 @keyframes fade {
   0% {
     opacity: 1;
